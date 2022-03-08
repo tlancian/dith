@@ -14,7 +14,7 @@ _Detecting niches of polarization in social media is a first step towards deploy
 
 ### Requirements
 
-The code has been tested with Java 11.
+The code has been written in Java 11.
 
 
 ### Folders
@@ -24,16 +24,31 @@ The code has been tested with Java 11.
 * **output**: 
 
 ### Execution
-
+To run the code put yourself in ./sw/bin and run the following command:
+java -Xms4g -Xmx4g algorithms.SuperGreedyPP algorithm data_directory graph_file_name set_A set_B lambda_1 lambda_2 complete_proximity_file_name complete_distance_file_name T gamma output_data_directory experiment_id 
 
 #### Positional arguments:
 
-
-
-#### Optional arguments:
+* algorithm: the algorithm to be executed: {"DITH", "DITH-1"}.
+* data_directory: the directory containing the input graph.
+* graph_file_name: the name of the file raprezenting the input graph.
+* set_A_id: a string representation of set A (ignored by the software and reported only in putput).
+* set_B_id: a string representation of set B (ignored by the software and reported only in putput).
+* lambda_1: the lambda_1 coefficient.
+* lambda_2: the lambda_2 coefficient.
+* complete_proximity_file_name: the complete file name of the file containing all the proximity values.
+* complete_distance_file_name: the complete file name of the file containing all the distance values.
+* T: the maximum number of iterations that the algorithm is allowed to do.
+* gamma: the desired approximation factor.
+* output_data_directory: the directory that will contains the output.
+* experiment_id: a string that represents the perfornmed experiment.
 
   	
 #### Examples:
+
+java -Xms4g -Xmx4g algorithms.SuperGreedyPP "DITH" ../../datasets/gunsense gunsense.tsv "{'1548714900', '2551313612', 'fabaceae', 'gregmercer1', 'pppatticake'}" "{'2984727962', 'koopac7', 'rickcanton'}" 196.23 242.95 ../../datasets/gunsense/gunsense_proximity.tsv ../../datasets/gunsense/gunsense_distance.tsv 10000 "0.99" "../../output" "gunsense_TEST_experiment" 
+
+java -Xms4g -Xmx4g algorithms.SuperGreedyPP "DITH" ../../datasets/vaxnovax vaxnovax.tsv "{'RobertoBurioni', 'nzingaretti'}" "{'DiegoFusaro', 'GiorgiaMeloni'}" 51.7 56.4 ../../datasets/vaxnovax/vaxnovax_proximity.tsv ../../datasets/vaxnovax/vaxnovax_distance.tsv 10000 "0.99" "../../output" "vaxnovax_TEST_experiment"
 
 
 
