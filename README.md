@@ -14,18 +14,28 @@ _Detecting niches of polarization in social media is a first step towards deploy
 
 ### Requirements
 
-The code has been tested with:
+The code has been tested with Java 11.
 
-*
-*
-*
-*
 
 ### Folders
-*
-*
+
+* **datasets**: 
+* **sw**: 
+* **output**: 
 
 ### Execution
 
+
+#### Positional arguments:
+
+
+
+#### Optional arguments:
+
+  	
+#### Examples:
+
+
+
 ### Contacts
-Mail to [tommaso.lanciano@uniroma1.it](mailto:tommaso.lanciano@uniroma1.it) for any question.
+Mail to [fazzone@diag.uniroma1.it](mailto:fazzone@diag.uniroma1.it) and [tommaso.lanciano@uniroma1.it](mailto:tommaso.lanciano@uniroma1.it) for any question.
