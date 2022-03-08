@@ -14,17 +14,17 @@ _Detecting niches of polarization in social media is a first step towards deploy
 
 ### Requirements
 
-The code has been written in Java 11.
+The code has been written in Java 11. The code runs Algorithm 2, assuming that proximities and distances are pre-computed and given in input.
 
 
 ### Folders
 
-* **datasets**: 
-* **sw**: 
-* **output**: 
+* **datasets**: folder containing the graph and an example of the pre-computed proximity/distance value for a specific instance of Problem 1. Due to Github single-file space limits, we provide here only a sample of the Datasets. All the graphs employed in this work can be found [here]().
+* **sw**: folder containing all the software necessary to run DITH.
+* **output**: folder that contains the output files.
 
 ### Execution
-To run the code put yourself in ./sw/bin and run the following command:
+To run the code go in ./sw/bin and run the following command:
 java -Xms4g -Xmx4g algorithms.SuperGreedyPP algorithm data_directory graph_file_name set_A set_B lambda_1 lambda_2 complete_proximity_file_name complete_distance_file_name T gamma output_data_directory experiment_id 
 
 #### Positional arguments:
