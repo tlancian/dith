@@ -19,7 +19,7 @@ The code has been written in Java 11. The code runs Algorithm 2, assuming that p
 
 ### Folders
 
-* **datasets**: folder containing the graph and an example of the pre-computed proximity/distance value for a specific instance of Problem 1. Due to Github single-file space limits, we provide here only a sample of the Datasets. All the graphs employed in this work can be found [here]().
+* **datasets**: folder containing the graph and an example of the pre-computed proximity/distance value for a specific instance of Problem 1. Due to Github single-file space limits, we provide here only a sample of the Datasets. All the graphs employed in this work can be found [here](https://www.dropbox.com/sh/03ouxvlv4jjvht9/AAClYn58iD3wCIrGjdIxLbjDa?dl=0).
 * **sw**: folder containing all the software necessary to run DITH.
 * **output**: folder that contains the output files.
 
