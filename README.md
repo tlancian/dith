@@ -33,7 +33,7 @@ java -Xms4g -Xmx4g algorithms.SuperGreedyPP algorithm data_directory graph_file_
 * **data_directory**: directory containing the input graph.
 * **graph_file_name**: name of the file representing the input graph.
 * **set_A_id**: string representation of set A (ignored by the software and reported only in output).
-* **set_B_id**: string representation of set B (ignored by the software and reported only in output).
+* **set_R_id**: string representation of set R (ignored by the software and reported only in output).
 * **lambda_1**: lambda_1 coefficient.
 * **lambda_2**: lambda_2 coefficient.
 * **complete_proximity_file_name**: complete file name of the file containing all the proximity values.
@@ -49,6 +49,29 @@ java -Xms4g -Xmx4g algorithms.SuperGreedyPP algorithm data_directory graph_file_
 java -Xms4g -Xmx4g algorithms.SuperGreedyPP "DITH" ../../datasets/gunsense gunsense.tsv "{'1548714900', '2551313612', 'fabaceae', 'gregmercer1', 'pppatticake'}" "{'2984727962', 'koopac7', 'rickcanton'}" 196.23 242.95 ../../datasets/gunsense/gunsense_proximity.tsv ../../datasets/gunsense/gunsense_distance.tsv 10000 "0.99" "../../output" "gunsense_TEST_experiment" 
 
 java -Xms4g -Xmx4g algorithms.SuperGreedyPP "DITH" ../../datasets/vaxnovax vaxnovax.tsv "{'RobertoBurioni', 'nzingaretti'}" "{'DiegoFusaro', 'GiorgiaMeloni'}" 51.7 56.4 ../../datasets/vaxnovax/vaxnovax_proximity.tsv ../../datasets/vaxnovax/vaxnovax_distance.tsv 10000 "0.99" "../../output" "vaxnovax_TEST_experiment"
+
+#### Output:
+
+The output file is a tab-separated value (tsv) file, with the following fields:
+
+* **algorithm**: algorithm executed (input parameter). 
+* **graph_file_name**: name of the file representing the input graph (input parameter). 
+* **set_A_id**: string representation of set A (input parameter).
+* **set_R_id**: string representation of set R (input parameter).
+* **lambda_1**: lambda_1 coefficient (input parameter). 
+* **lambda_2**: lambda_2 coefficient (input parameter). 
+* **avg_deg**: average degree of the provided solution.
+* **avg_prox**: average proximity of the provided solution.
+* **avg_dist**: average distance of the provided solution.
+* **OF_value**: value of the objective function of the provided solution.
+* **UB**: value of the upper bound computed by the algorithm (Theorem 1).
+* **LB/UB**: ratio between the value of the objective function of the provided solution and the value of the upper bound computed by the algorithm.
+* **t**: total number of iterations performed by the algorithm.
+* **executiontime**: execution time taken by the algorithm in milliseconds.
+* **T**: maximum allowed number of iterations (input parameter). 
+* **gamma**: desired approximation factor (input parameter).
+* **size**: number of nodes in the provided solution.
+* **solution**: string value that is an explicit representation of the provided solution as a set of nodes.
 
 
 ### Contacts
