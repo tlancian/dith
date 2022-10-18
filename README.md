@@ -1,6 +1,6 @@
 ## Discovering Polarization Niches via Dense Subgraphs with Attractors and Repulsers
 
-[Adriano Fazzone](https://scholar.google.it/citations?user=ivW-SnEAAAAJ&hl=en) (Sapienza University, Rome), [Tommaso Lanciano](https://phd.uniroma1.it/web/LANCIANO-TOMMASO_nP1661409_EN.aspx) (Sapienza University, Rome), [Riccardo Denni](https://phd.uniroma1.it/web/RICCARDO-DENNI_nP1893279_EN.aspx) (Sapienza University, Rome), [Charalampos Tsourakakis](https://tsourakakis.com/) (ISI Foundation, Turin and Boston University, Boston), [Francesco Bonchi](http://www.francescobonchi.com/) (ISI Foundation, Turin and Eurecat, Barcelona)
+[Adriano Fazzone](https://scholar.google.it/citations?user=ivW-SnEAAAAJ&hl=en) (CENTAI, Turin, Italy), [Tommaso Lanciano](https://phd.uniroma1.it/web/LANCIANO-TOMMASO_nP1661409_EN.aspx) (Sapienza University, Rome, Italy), [Riccardo Denni](https://phd.uniroma1.it/web/RICCARDO-DENNI_nP1893279_EN.aspx) (Sapienza University, Rome, Italy), [Charalampos Tsourakakis](https://tsourakakis.com/) (ISI Foundation, Turin, Italy and Boston University, Boston, Massachusetts), [Francesco Bonchi](http://www.francescobonchi.com/) (CENTAI, Turin, Italy and Eurecat, Barcelona, Spain)
 
 <p align="center">
   <img width="600" height="300" src="https://github.com/tlancian/dith/blob/main/figure1.png">
@@ -75,4 +75,4 @@ The output file is a tab-separated value (tsv) file, with the following fields:
 
 
 ### Contacts
-Mail to [fazzone@diag.uniroma1.it](mailto:fazzone@diag.uniroma1.it) and [tommaso.lanciano@uniroma1.it](mailto:tommaso.lanciano@uniroma1.it) for any question.
+Mail to [adriano.fazzone@centai.eu](mailto:adriano.fazzone@centai.eu) and [tommaso.lanciano@uniroma1.it](mailto:tommaso.lanciano@uniroma1.it) for any question.
