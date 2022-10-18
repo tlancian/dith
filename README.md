@@ -40,7 +40,7 @@ java -Xms4g -Xmx4g algorithms.SuperGreedyPP algorithm data_directory graph_file_
 * **complete_distance_file_name**: complete file name of the file containing all the distance values.
 * **T**: maximum number of iterations the algorithm is allowed to do.
 * **gamma**: desired approximation factor.
-* **output_data_directory**: directory that will contains the output.
+* **output_data_directory**: directory that will contain the output.
 * **experiment_id**: string identifier that represents the performed experiment.
 
   	
